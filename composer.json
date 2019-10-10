@@ -1,0 +1,22 @@
+{
+    "name": "chancelito/vetrosms-php-sdk",
+    "description": "This package is to help send smses via vetro media sms platform",
+    "type": "Library",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Chancel Shongo",
+            "email": "cshongo33@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Chancelito\\VetrosmsPhpSdk\\": "src/"
+        }
+    }
+}
