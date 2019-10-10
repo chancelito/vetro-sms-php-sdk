@@ -1,4 +1,4 @@
-#Vetro Media Bulk SMS SDK
+# Vetro Media Bulk SMS SDK
 
 This package serves to send sms via Vetro media SMS SDK. Get an authorization token
 on [this link](https://sms.vetro.co.za) by getting a account.
