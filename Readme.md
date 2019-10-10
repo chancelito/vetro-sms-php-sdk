@@ -12,12 +12,7 @@ Php-curl
 ### Installation
 
     $ composer require chancelito/vetro-sms-sdk
-    
-### Contact
-
-cshongo33@gmail.com
-
-
+  
 ### Example
 
       <?php
@@ -32,3 +27,8 @@ cshongo33@gmail.com
       
       $obj = new VetroSms($authorization_token, $account_token);
       $send = $obj->sendSingleSms($cell_number, $message);
+
+
+### Contact
+
+cshongo33@gmail.com
