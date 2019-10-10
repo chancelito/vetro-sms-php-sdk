@@ -54,7 +54,7 @@ class VetroSms
 
         } catch (\Exception $e) {
 
-            return (object) ['success' => 'false', 'Could not send your sms'];
+            return (object) ['success' => 'false', 'message' => 'Could not send your sms'];
         }
     }
 }
