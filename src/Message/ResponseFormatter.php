@@ -6,6 +6,12 @@ namespace Chancelito\VetrosmsPhpSdk\Message;
 
 class ResponseFormatter
 {
+    /**
+     * Formats response based on request response
+     * @param $code
+     * @param $body
+     * @return object
+     */
     public static function formatResponse($code, $body)
     {
         $response = [];
@@ -22,12 +28,12 @@ class ResponseFormatter
                 break;
 
             case 200:
-                if ($body->success == true) {
+                if (isset($body->success) and ($body->success == true)) {
                     $success = true;
                     $message = 'Message sent successfully!';
                 } else {
                     $success = false;
-                    $message = $body->message;
+                    $message = isset($body->message) ? $body->message: 'Message could not be sent';
                 }
 
                 break;

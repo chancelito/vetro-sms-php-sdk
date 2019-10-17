@@ -47,7 +47,7 @@ class VetroSms
                 ]
             );
 
-            $body = $response->getBody();
+            $body = json_decode($response->getBody());
             $code = $response->getStatusCode();
 
             return ResponseFormatter::formatResponse($code, $body);
