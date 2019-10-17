@@ -11,7 +11,7 @@ Php-curl
 
 ### Installation
 
-    $ composer require chancelito/vetro-sms-sdk
+    $ composer require chancelito/vetro-sms-sdk:"~1.0"
   
 ### Example
 
