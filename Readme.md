@@ -11,7 +11,7 @@ Php-curl
 
 ### Installation
 
-    $ composer require chancelito/vetrosms-php-sdk:"~1.0"
+    $ composer require chancelito/vetrosms-php-sdk
   
 ### Example
 
