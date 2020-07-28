@@ -5,13 +5,13 @@ on [this link](https://sms.vetro.co.za) by getting a account.
 
 
 ### Requirements
-PHP >= 7.1
+PHP >= 7.2
 Php-curl
 
 
 ### Installation
 
-    $ composer require chancelito/vetrosms-php-sdk
+    $ composer require chancelito/vetrosms-php-sdk:"1.1"
   
 ### Example
 
