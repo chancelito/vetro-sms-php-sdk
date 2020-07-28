@@ -3,9 +3,9 @@
     "description": "This package is to help send smses via vetro media sms platform",
     "type": "Library",
     "require": {
-        "php": ">=7.1",
-        "guzzlehttp/guzzle": "^6.3",
-        "phpunit/phpunit": "^7.0"
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^7.1",
+        "phpunit/phpunit": "^8.0"
     },
     "authors": [
         {
